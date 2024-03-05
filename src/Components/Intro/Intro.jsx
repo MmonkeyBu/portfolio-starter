@@ -1,5 +1,6 @@
 import React from 'react'
 import './Intro.css'
+import Whatsapp from '../../img/whatsapp.png'
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
 import Instagram from '../../img/instagram.png';
@@ -37,8 +38,12 @@ const intro = () => {
                 <a id='instagram-icon' href="https://www.instagram.com/p_daniel_yy/" target='_blank'>
                     <img src={Instagram} alt="" />
                 </a>      
+                <a id='whatsapp-icon' href="https://api.whatsapp.com/send?phone=5583981662174&text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portfólio%3F
+" target='_blank'>
+                    <img style={{ height: '90px', width: '90px' }} src={Whatsapp} alt="" />
+                </a>    
             </div>
-        </div>
+        </div>  
             <div className="i-right">
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />

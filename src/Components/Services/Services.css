@@ -31,7 +31,7 @@
     width: 8rem;
     height: 3.5rem;
     margin-top: 1rem;
-    
+    transition: 0.5s ease-in-out;
 }
 .cards>*{
     position: absolute;

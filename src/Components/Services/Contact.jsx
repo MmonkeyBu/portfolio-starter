@@ -39,7 +39,7 @@ export const ContactUs = () => {
             <input type="text" name="user_name" className="user" placeholder="Name"/>
             <input type="email" name="user_email" className="user" placeholder="Email"/>
             <textarea name = "message" className="user" placeholder="Messagem" />
-            <input type= "submit" value="send" className="button"/>
+            <input id='send' type= "submit" value="Send" className="button"/>
             <span>{done && "Sua mensagem foi enviada!"}</span>
             
              <div 

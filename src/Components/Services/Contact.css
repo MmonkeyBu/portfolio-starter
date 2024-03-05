@@ -2,25 +2,29 @@
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 80vh;
-    margin-top: 4rem;
 }
 .c-right{
     display: flex;
     justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
     position: relative;
     flex: 1;
 }
 .c-right>form{
     display:flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 
 .c-right .user{
     width: 20rem;
     height: 2rem;
-    padding: 0.3em;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
     outline: none;
     border: 2px solid var(--orange);
     border-radius: 8px;
@@ -34,4 +38,10 @@ textarea{
 .c-blurl{
     top: 1rem;
     left: 8rem;
+}
+
+#send {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    transition: 0.4s ease-in-out;
 }
