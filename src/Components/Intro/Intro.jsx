@@ -13,7 +13,8 @@ import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import {motion} from 'framer-motion'
 
 
-const transition ={duration : 2,type: 'spring'}
+const transition ={duration : 2, type: 'spring'}
+
 const intro = () => {
   return (
     <div className="intro">
@@ -27,13 +28,14 @@ const intro = () => {
 
             <button className="button i-button">Contrate-me</button>
             <div className="i-icons">
-                <a href="https://github.com/MmonkeyBu">
-                <img src={Github} alt="" />
+                <a id='github-icon' href="https://github.com/MmonkeyBu" target='_blank'>
+                    <img src={Github} alt="" />
                 </a>
-                <a href="https://www.linkedin.com/in/pablo-daniel-b1a6a7277/">
-                <img src={LinkedIn} alt="" />
+                <a id='linkedin-icon' href="https://www.linkedin.com/in/pablo-daniel-b1a6a7277/" target='_blank'>
+                    <img src={LinkedIn} alt="" />
                 </a>
-                <a href="https://www.instagram.com/p_daniel_yy/"><img src={Instagram} alt="" />
+                <a id='instagram-icon' href="https://www.instagram.com/p_daniel_yy/" target='_blank'>
+                    <img src={Instagram} alt="" />
                 </a>      
             </div>
         </div>
@@ -53,18 +55,17 @@ const intro = () => {
                 transition={transition}
                 style={{top: '-4%',left: '83%'}}
                 >
-
-                    <FloatingDiv image={Crown}  txt1='web' txt2='Dessenvolvedor'/>
+                    <FloatingDiv image={Crown}  txt1='Desenvolvedor' txt2='Web'/>
                 </motion.div>
                 <motion.div
                 initial={{left: '12rem', top: '18rem'}}
                 whileInView={{left: '-10rem'}}
                 transition={transition}
                  style={{top:`18rem`, left: `-15rem`}}>
-                    <FloatingDiv image={thumbup} txt1='proatividade +' txt2 = 'Segurança'/>
+                    <FloatingDiv image={thumbup} txt1='Proatividade +' txt2 = 'Segurança'/>
                 </motion.div>
             {/* Aparencia de Blur*/}
-            <div className="blur" style={{backgroud: "rgb(236 210 255)"}} ></div>
+            <div className="blur" style={{background: "rgb(236 210 255)"}} ></div>
             <div className="blur" style={{
                 backgroud: '#C1f5FF',
                 top: '15rem',

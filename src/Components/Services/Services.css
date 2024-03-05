@@ -8,6 +8,7 @@
 }
 
 .awesome{
+    margin-top: 8vw;
     display: flex;
     flex-direction: column;
     position: relative;

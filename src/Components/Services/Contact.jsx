@@ -12,7 +12,7 @@ export const ContactUs = () => {
           .sendForm('service_98imq0k', 'template_y116g3m', form.current, {
             publicKey: 'ssOLjTGgRhUeIbCi6',
           })
-          .then(
+          .then(                                          
             () => {
               console.log('SUCCESS!');
               setDone(true);
